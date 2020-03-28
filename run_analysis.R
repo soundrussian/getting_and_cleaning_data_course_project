@@ -73,4 +73,4 @@ if(!file.exists('./output')) { dir.create('./output') }
 
 # Write tidy set
 outputFile <- "./output/tidy_set.txt"
-write.table(tidySet, file = outputFile, sep = ",")
+write.table(tidySet, file = outputFile, sep = ",", row.names = FALSE)
